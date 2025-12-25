@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">hideX</string>
+    <string name="accessibility_service_label">hideX App Protection</string>
+    <string name="accessibility_service_description">This service monitors when protected apps are launched and displays a password overlay to secure them. Your privacy is important - we only monitor apps you choose to protect.</string>
+    
+    <!-- First Launch -->
+    <string name="first_launch_title">Create Password</string>
+    <string name="first_launch_subtitle">Set up a password to protect your apps</string>
+    <string name="password_hint">Enter password</string>
+    <string name="confirm_password_hint">Confirm password</string>
+    <string name="create_password_button">Create Password</string>
+    
+    <!-- Main Screen -->
+    <string name="main_screen_title">Protected Apps</string>
+    <string name="no_protected_apps">No protected apps yet</string>
+    <string name="tap_to_add">Tap + to add apps to protect</string>
+    <string name="add_app">Add App</string>
+    
+    <!-- App Selection -->
+    <string name="select_apps_title">Select Apps to Protect</string>
+    <string name="select_apps_subtitle">Choose which apps to secure with password</string>
+    <string name="save_selection">Save</string>
+    <string name="loading_apps">Loading apps…</string>
+    
+    <!-- Password Overlay -->
+    <string name="unlock_app">Unlock App</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="unlock_button">Unlock</string>
+    <string name="incorrect_password">Incorrect password</string>
+    <string name="use_biometric">Use fingerprint</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="change_password">Change Password</string>
+    <string name="enable_biometric">Enable Biometric</string>
+    <string name="biometric_enabled">Biometric authentication enabled</string>
+    <string name="biometric_disabled">Biometric authentication disabled</string>
+    <string name="accessibility_service_status">Accessibility Service</string>
+    <string name="service_enabled">Enabled</string>
+    <string name="service_disabled">Disabled - Tap to enable</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">Permission Required</string>
+    <string name="accessibility_permission_message">hideX needs Accessibility Service permission to monitor protected apps. Please enable it in Settings.</string>
+    <string name="overlay_permission_message">hideX needs permission to display over other apps to show the password screen.</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Error Messages -->
+    <string name="error_passwords_dont_match">Passwords don\'t match</string>
+    <string name="error_password_too_short">Password must be at least 4 characters</string>
+    <string name="error_empty_password">Password cannot be empty</string>
+    <string name="error_generic">An error occurred. Please try again.</string>
+    
+    <!-- Success Messages -->
+    <string name="password_created">Password created successfully</string>
+    <string name="password_changed">Password changed successfully</string>
+    <string name="apps_saved">Protected apps updated</string>
+</resources>
